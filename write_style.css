@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+.container {
+    background: #fff;
+    width: 800px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
+}
+table {
+    margin: auto;
+}
+.table h2 {
+    margin-bottom: 40px;
+}
+input[type="text"] {
+    border: 1.5px rgb(68, 136, 244) solid;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+textarea {
+    border: 1.5px rgb(68, 136, 244) solid;
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+}
+.header {
+    height: 30px;
+}
+input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    outline: 1.5px rgb(68, 136, 244) solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: rgb(164, 199, 255);
+}
+input[type="submit"]:active {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    outline: 1.5px rgb(27, 76, 155) solid;
+    padding-left: 10px;
+    background-color: rgb(68, 136, 244);
+}
